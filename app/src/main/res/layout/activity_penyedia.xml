@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/desain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penyedia"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#000000"/>
+    <ImageView
+        android:id="@+id/image_user_bengkel"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/namauser_bengkel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Sutio"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/nama_bengkel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Bengkel Do'a Ibu"/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/alamatuser_bengkel_lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Jl. K.H. Muhdi no.69 Corongan Maguwoharjo, Sleman"/>
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/nomeruser_bengkel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="+6289666076780"/>
+
+</LinearLayout>
